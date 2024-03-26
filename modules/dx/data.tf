@@ -1,0 +1,1 @@
+#if you want to import your data you can use "terraform import aws_dx_connection.my_direct_connect YOUR_DIRECT_CONNECT_ID" and then update your Terraform files with the necessary information from the "terraform.tfstate" file.
