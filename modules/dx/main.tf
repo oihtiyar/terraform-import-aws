@@ -1,17 +1,17 @@
 resource "aws_dx_connection" "public-dx" {
-  #arn             = "arn:aws:directconnect:eu-central-1:193333922536:dxcon/dxcon-ffukeeww"
-  #aws_device      = "INX6-3ip5o9bqkgytl"
+  #arn             = "your-dx-arn"
+  #aws_device      = "your-device-arn"
   bandwidth = "1Gbps"
   #encryption_mode = "unknown"
-  #id              = "dxcon-ffukeeww"
+  #id              = "your-dx-id"
   location = "INX6"
   #macsec_capable  = false
-  name = "DE-CIX DirectCLOUD Service CID-DXDB-VLS-54234 via Superonline"
+  name = "your DirectCLOUD Service"
   #partner_name    = "DE-CIX"
-  #vlan_id         = "2013"
+  #vlan_id         = "your vlan"
 
   #connection_type    = "public"
-  #customer_device    = "arn:aws:directconnect:eu-central-1:193333922536:dxcon/dxcon-ffukeeww"
+
   tags = {
     Name = "public-dx"
   }
