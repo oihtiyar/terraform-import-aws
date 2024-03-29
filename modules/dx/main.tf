@@ -7,7 +7,7 @@ resource "aws_dx_connection" "public-dx" {
   location = "INX6"
   #macsec_capable  = false
   name = "your DirectCLOUD Service"
-  #partner_name    = "DE-CIX"
+  #partner_name    = "partner"
   #vlan_id         = "your vlan"
 
   #connection_type    = "public"
